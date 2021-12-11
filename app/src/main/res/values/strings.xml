@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AndroidMapSDK</string>
+    <string name="title_activity">NavigationActivity</string>
+    <string name="MapsActivity">MapsActivity</string>
+    <string name="the_best">I\'m Rich</string>
+    <string name="the_worst">I\'m Poor</string>
+    <string name="something_inBetween">Something In Between</string>
+</resources>
