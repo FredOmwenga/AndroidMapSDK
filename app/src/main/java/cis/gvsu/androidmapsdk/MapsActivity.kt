@@ -77,7 +77,6 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
         val letUsGoButton = findViewById<Button>(R.id.letUsGo)
         letUsGoButton.setOnClickListener {
             val gmmIntentUri = Uri.parse("google.navigation:q=" + restaurant.name + "," + restaurant.vicinity)
-            println("google.navigation:q=" + restaurant.name + "," + restaurant.vicinity)
             val mapIntent = Intent(Intent.ACTION_VIEW, gmmIntentUri)
             mapIntent.setPackage("com.google.android.apps.maps")
             mapIntent.resolveActivity(packageManager)?.let {
@@ -119,7 +118,6 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
                 listOf(PriceLevel.MODERATE, PriceLevel.MODERATE)
             }
         }
-        println(priceLimit)
         val context = GeoApiContext.Builder()
 
             // These aren't the API keys you're looking for.

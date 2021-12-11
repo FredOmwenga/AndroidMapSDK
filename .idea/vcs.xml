@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/CIS 357/hw6-FredOmwenga/hw6-FredOmwenga" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/CIS 357/hw7-FredOmwenga" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/CIS 357/hw8-FredOmwenga" vcs="Git" />
